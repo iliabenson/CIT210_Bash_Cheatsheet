@@ -353,6 +353,7 @@ n<&-       # closes the input from file descripor n
 
 $0          #Name of this shell script itself. 
 $1          #Value of first command line parameter (similarly $2, $3, etc) 
+$@          #Refers to all of a shell script's command-line arguments. $1 , $2 , etc.
 $#          #In a shell script, the number of command line parameters. 
 $*          #All of the command line parameters. 
 $-          #Options given to the shell. 
